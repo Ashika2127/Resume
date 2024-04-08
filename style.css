@@ -1,0 +1,101 @@
+* {
+  font-size: 300;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  background-color: whitesmoke;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.left_side {
+  position: relative;
+  background-color: #28282b;
+  padding: 40px;
+}
+.right_side {
+  position: relative;
+  background-color: whitesmoke;
+  padding: 40px;
+}
+.header {
+  color: #003147;
+  text-align: center;
+  font-size: large;
+  margin-top: 10px;
+  text-transform: uppercase;
+  line-height: 2em;
+}
+.header h2 {
+  font-size: 1em;
+  font-weight: 300;
+}
+.Contact {
+  padding-top: 40%;
+  color: whitesmoke;
+  position: relative;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+li {
+  list-style: none;
+}
+svg {
+  display: inline-block;
+  width: 18px;
+  color: darkturquoise;
+}
+.Education {
+  padding-top: 10%;
+  color: whitesmoke;
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.Education h5 {
+  font-style: italic;
+  font-size: 18px;
+}
+.Education h3 {
+  font-size: 25px;
+}
+#profile {
+  padding-top: 5%;
+}
+#Experience {
+  padding-top: 5%;
+}
+#Experience svg {
+  color: darkblue;
+}
+#Experience li {
+  list-style: square;
+}
+#Languages {
+  padding-top: 5%;
+}
+#Languages li {
+  list-style: square;
+}
+#Skills {
+  padding-top: 5%;
+  color: white;
+  font-size: 20px;
+}
